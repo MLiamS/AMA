@@ -1,7 +1,12 @@
 # a-m-a
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+
+
+#### By _**Liam Stabeno, 4-28-2017**_
+
+## Description
+
+a-m-a stands for ask me anything, it's a site where users can post  questions and receive answers, anything pertaining to a certain subject matter.  The point of the project is to start conversations.
 
 ## Prerequisites
 
@@ -13,40 +18,39 @@ You will need the following things properly installed on your computer.
 * [Ember CLI](https://ember-cli.com/)
 * [PhantomJS](http://phantomjs.org/)
 
-## Installation
-
-* `git clone <repository-url>` this repository
+## Installation and Running the App
+First, in terminal run the following commands in sequence.
+* `git clone https://github.com/MLiamS/AMA.git`
 * `cd a-m-a`
 * `npm install`
 * `bower install`
+<!-- Insert screen shot here of commands run in terminal, with completion -->
 
-## Running / Development
+Second, in terminal run.
+
 
 * `ember serve`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
 
-### Code Generators
+Third, in a browser navigate to
 
-Make use of the many generators for code, try `ember help generate` for more details
+* [http://localhost:4200](http://localhost:4200).
 
-### Running Tests
+<!-- Screenshots of all of these commands will be nice and noob friendly, whih is who this app is for xD -->
 
-* `ember test`
-* `ember test --server`
+## How to use the app
 
-### Building
+<!-- Insert screenshots with arrows and an explanation of how each function works. Again noob friendly -->
 
-* `ember build` (development)
-* `ember build --environment production` (production)
+## Technologies Used
 
-### Deploying
+<!-- this might be better as dependencies used -->
 
-Specify what it takes to deploy your app.
+* JavaScript
+* emberfire
+* Firebase
 
-## Further Reading / Useful Links
+### License
 
-* [ember.js](http://emberjs.com/)
-* [ember-cli](https://ember-cli.com/)
-* Development Browser Extensions
-  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
+Copyright (c) 2017 **_Liam Stabeno_**
+
+This software is licensed under the MIT license.
