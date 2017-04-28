@@ -2,5 +2,11 @@
 
 <p>Welocme to a_m_a, you can post a question and recieve answers.<br>Lets get the conversation sarted</p>
 
+<ul>
+  {{#each model as |subject|}}
+     <li>{{subject.title}}'s {{subject.owner}}</li>
+  {{/each}}
+</ul>
+
 {{#link-to 'about'}}About{{/link-to}}
 <!-- again ^this^ will change once we get the nav bar working  -->
