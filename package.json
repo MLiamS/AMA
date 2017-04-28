@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "description": "Small description for a-m-a goes here",
   "license": "MIT",
-  "author": "",
+  "author": "Liam Stabeno",
   "directories": {
     "doc": "doc",
     "test": "tests"

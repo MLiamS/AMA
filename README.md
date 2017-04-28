@@ -6,7 +6,7 @@
 
 ## Description
 
-a-m-a stands for ask me anything, it's a site where users can post  questions and receive answers, anything pertaining to a certain subject matter.  The point of the project is to start conversations.
+a-m-a stands for ask me anything, it's a site where users can post questions and receive answers, anything pertaining to a certain subject matter.  The point of the project is to start conversations.
 
 ## Prerequisites
 
