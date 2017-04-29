@@ -10,7 +10,7 @@ export default Ember.Component.extend({
     saveSubject() {
           var params = {
             owner: this.get('owner'),
-            subject: this.get('subject'),
+            title: this.get('title'),
           };
           this.set('addNewSubject', false);
           this.sendAction('saveSubject', params);
