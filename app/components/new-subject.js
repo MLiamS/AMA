@@ -17,4 +17,3 @@ export default Ember.Component.extend({
         }
       }
     });
-// insert code to save to db
