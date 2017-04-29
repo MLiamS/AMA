@@ -8,9 +8,8 @@
 
 <ul>
   {{#each model as |subject|}}
-     {{subject-tile subject=subject}}
+     {{subject-tile subject=subject update="update"}}
   {{/each}}
 </ul>
 
 {{new-subject saveSubject="saveSubject"}}
-<!-- I'm thinking the link to ^this^ component should be in the nav bar -->

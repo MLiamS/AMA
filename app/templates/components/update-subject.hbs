@@ -1,0 +1,17 @@
+{{#if updateSubjectForm}}
+  <h4>Update{{subject.owner}}'s {{subject.title}}</h4>
+  <div>
+    <form>
+      <div class="form-group">
+        <label for="owner">Owner</label>
+        {{input value=owner id="owner" placeholder=subject.owner}}
+      </div>
+
+      <div class="form-group">
+        <label for="title">Type</label>
+        {{input value=type id="title" placeholder=subject.title}}
+      </div>
+      <button {{action 'update' subject}}>Save</button>
+    </form>
+  </div>
+{{/if}}

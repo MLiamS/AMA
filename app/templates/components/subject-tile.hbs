@@ -2,6 +2,8 @@
         <div class="well">
           <h3>Thread started by: {{subject.owner}}</h3>
           <p>{{subject.title}}</p>
+          {{update-subject subject=subject update="update"}}
+          {{#link-to 'subject' subject.id}}Open Conversation{{/link-to}}
           <hr>
         </div>
 </div>
