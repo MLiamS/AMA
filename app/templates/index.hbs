@@ -7,7 +7,7 @@
 <p>Welocme to a_m_a, you can post a question and recieve answers.<br>Lets get the conversation sarted</p>
 
 <ul>
-  {{#each model as |subject|}}
+  {{#each model.subjects as |subject|}}
      {{subject-tile subject=subject update="update"}}
   {{/each}}
 </ul>

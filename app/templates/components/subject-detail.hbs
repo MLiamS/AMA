@@ -1,2 +1,9 @@
+{{subject.title}}
+From:{{subject.owner}}
+<br>
 
-This subject {{subject.title}} was created by {{subject.owner}}.
+<ul>
+  {{#each subject.comments as |comment|}}
+    {{comment-tile comment=comment}}
+  {{/each}}
+</ul>
