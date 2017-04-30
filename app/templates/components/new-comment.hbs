@@ -1,1 +1,17 @@
-{{yield}}
+{{#if addNewComment}}
+  <div>
+    <form>
+      <div class="form-group">
+        <label for="content">Comment</label>
+        {{input value=content id="content"}}
+      </div>
+      <div class="form-group">
+        <label for="rating">User</label>
+        {{input value=user id="user"}}
+      </div>
+      <button {{action 'saveComment'}}>Post</button>
+    </form>
+  </div>
+{{else}}
+  <button {{action 'commentFormShow'}}>Add Comment</button>
+{{/if}}
